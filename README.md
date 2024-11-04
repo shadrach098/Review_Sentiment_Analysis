@@ -14,7 +14,7 @@ To run this project, you'll need Python 3 and the following libraries:
 * xgboost (optional)
 ### Install the required libraries using:
 ```bash
-   pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 ## Dataset Overview
 The dataset contains IMDB movie reviews labeled as positive or negative. Each review consists of text data that will undergo preprocessing and feature extraction before model training. The dataset is loaded from a CSV file and checked for null values, with no missing values detected.
@@ -38,7 +38,7 @@ The project uses two main classifiers, with GridSearchCV for hyperparameter tuni
 
 How to Run
 ```bash
-   git clone https://github.com/shadrach098/Review_Sentiment_Analysis.git
+git clone https://github.com/shadrach098/Review_Sentiment_Analysis.git
 
 ```
 ```bash
